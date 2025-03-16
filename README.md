@@ -2,7 +2,7 @@ Here’s a **README.md** file for your project. You can copy and paste this into
 
 ---
 
-```markdown
+
 # TabFlow
 
 A Chrome extension for exporting and managing browser tab URLs with ease.
@@ -75,7 +75,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Enjoy using TabFlow!** 🚀
-```
+
 
 ---
 
