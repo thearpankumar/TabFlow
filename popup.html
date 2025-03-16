@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Modern Font */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 16px;
+        background: #f5f5f7;
+        color: #1c1c1e;
+        width: 300px;
+      }
+
+      h1 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 16px;
+        color: #1c1c1e;
+      }
+
+      input, textarea, button {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 12px;
+        border: 1px solid #d1d1d6;
+        border-radius: 8px;
+        font-size: 14px;
+        box-sizing: border-box;
+        transition: all 0.2s ease;
+      }
+
+      input:focus, textarea:focus, button:focus {
+        outline: none;
+        border-color: #007aff;
+        box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.1);
+      }
+
+      textarea {
+        height: 120px;
+        resize: vertical;
+      }
+
+      button {
+        background: #007aff;
+        color: white;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #0063cc;
+      }
+
+      button:active {
+        background: #004999;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background: #e5e5ea;
+        margin: 16px 0;
+      }
+
+      .section-title {
+        font-size: 14px;
+        font-weight: 500;
+        color: #8e8e93;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tab URL Manager</h1>
+
+    <!-- Export Tab URLs Section -->
+    <div class="section-title">Export Tabs</div>
+    <input type="text" id="filename" placeholder="Enter filename (e.g., my_tabs.txt)" />
+    <button id="exportButton">Export Tab URLs</button>
+
+    <!-- Open Links Section -->
+    <hr />
+    <div class="section-title">Open Links</div>
+    <textarea id="fileContent" placeholder="Paste file content here (one URL per line)"></textarea>
+    <button id="openLinksButton">Open Links from Text</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
