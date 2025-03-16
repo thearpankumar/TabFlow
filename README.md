@@ -2,12 +2,11 @@ Here’s a **README.md** file for your project. You can copy and paste this into
 
 ---
 
-
 # TabFlow
 
 A Chrome extension for exporting and managing browser tab URLs with ease.
 
-![TabFlow Screenshot](screenshot.png) <!-- Add a screenshot if you have one -->
+![TabFlow Screenshot](SS-Extention.png) <!-- Add a screenshot if you have one -->
 
 ## Features
 - **Export Tab URLs**: Save all open tab URLs to a `.txt` file.
